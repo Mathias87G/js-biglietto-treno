@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.tgtourism.tv%2Fwp-content%2Fuploads%2F2017%2F08%2Fvtreno.jpg&f=1&nofb=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.ticket-card {
+  background-color: rgba(198, 192, 207, 0.7);
+  height: 300px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 15px;
+  margin-left: 50px;
+}
+
+.ticket-elements_ctr {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px 10px;
+}
